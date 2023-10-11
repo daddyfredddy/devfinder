@@ -6,7 +6,6 @@ import { ThemeContext } from "./ContextTheme";
 const Navigation = () => {
   const { darkTheme, themeHandler } = useContext(ThemeContext);
 
-  const heme = "";
   return (
     <div className="flex justify-between items-center w-full mt-8 ml-6 mr-6">
       <h1

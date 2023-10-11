@@ -16,7 +16,8 @@ module.exports = {
         "kalas8": "#141D2F",
         "kalas9": "#1E3A47",
         "kalas10": "#222731",
-        "shado": "rgba(70, 96, 187, 0.20",
+        "kalas11": "#1E2A47",
+        "shado": "rgba(70, 96, 187, 0.20)",
       }
     },
     fontFamily: {

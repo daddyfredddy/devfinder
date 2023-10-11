@@ -4,6 +4,7 @@ import { useContext } from "react";
 import FormSearch from "./Components/FormSearch";
 import Navigation from "./Components/Navigation";
 import { ThemeContext } from "./Components/ContextTheme";
+import UserCard from "./Components/UserCard";
 
 export const App = () => {
   const { darkTheme, themeHandler } = useContext(ThemeContext);
@@ -16,6 +17,9 @@ export const App = () => {
       </div>
       <div className="flex justify-center items-center shadow-xl shadow-shado">
         <FormSearch />
+      </div>
+      <div>
+        <UserCard />
       </div>
     </div>
   );
